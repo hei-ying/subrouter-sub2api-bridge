@@ -5,11 +5,13 @@ import { json, fail } from './lib/http.js';
 import { registerHealthRoutes } from './routes/health.js';
 import { registerDistSiteRoutes } from './routes/dist-site.js';
 import { registerDistAuthRoutes } from './routes/dist-auth.js';
+import { registerDistTokenRoutes } from './routes/dist-token.js';
 
 const router = createRouter();
 registerHealthRoutes(router);
 registerDistSiteRoutes(router);
 registerDistAuthRoutes(router);
+registerDistTokenRoutes(router);
 
 const server = http.createServer(async (req, res) => {
   try {

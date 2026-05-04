@@ -30,6 +30,13 @@ Implemented:
 - `POST /api/dist/user/register`
 - `GET /api/dist/user/self`
 - `POST /api/dist/user/logout`
+- `GET /api/dist/token/list`
+- `POST /api/dist/token/create`
+- `PUT /api/dist/token/:id`
+- `DELETE /api/dist/token/:id`
+- `GET /api/dist/token/:id/models`
+- `GET /api/dist/site/key-groups`
+- `GET /api/dist/site/key-groups/:id/pricing`
 
 Planned next:
 

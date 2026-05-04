@@ -26,6 +26,10 @@ Implemented:
 
 - `GET /health`
 - `GET /api/dist/site/info`
+- `POST /api/dist/user/login`
+- `POST /api/dist/user/register`
+- `GET /api/dist/user/self`
+- `POST /api/dist/user/logout`
 
 Planned next:
 

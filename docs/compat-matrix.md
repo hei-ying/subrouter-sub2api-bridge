@@ -2,9 +2,9 @@
 
 | Area | Sub-Router expectation | sub2api capability | Status | Notes |
 | --- | --- | --- | --- | --- |
-| Auth | `/api/dist/user/login` | `/api/v1/auth/login` | In progress | Response format + token storage mapping needed |
-| Register | `/api/dist/user/register` | `/api/v1/auth/register` | In progress | Depends on `registration_enabled` |
-| Session | cookie-ish dist flow | bearer + refresh token | In progress | Adapter normalizes session model |
+| Auth | `/api/dist/user/login` | `/api/v1/auth/login` | In progress | Bridge route added; cookie-backed facade semantics in progress |
+| Register | `/api/dist/user/register` | `/api/v1/auth/register` | In progress | Bridge route added; still depends on `registration_enabled` |
+| Session | cookie-ish dist flow | bearer + refresh token | In progress | Bridge now stores upstream tokens in bridge-owned HttpOnly cookies |
 | Site info | `/api/dist/site/info` | `/api/v1/settings/public` | In progress | Theme/template semantics differ |
 | API keys | `/api/dist/token/*` | `/api/v1/keys*` | In progress | Key prefix + model list normalization |
 | Usage/logs | `/api/dist/user/logs` | `/api/v1/usage*` | Planned | Need log shape translation |

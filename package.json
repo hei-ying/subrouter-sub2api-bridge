@@ -1,0 +1,11 @@
+{
+  "name": "subrouter-sub2api-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Compatibility facade bridging Sub-Router /api/dist expectations to sub2api /api/v1",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js"
+  }
+}

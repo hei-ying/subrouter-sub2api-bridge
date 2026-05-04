@@ -40,6 +40,8 @@ The bridge should provide:
 - `docs/compat-matrix.md` — feature-by-feature mapping between projects
 - `docs/architecture.md` — integration architecture and design decisions
 - `plans/roadmap.md` — staged implementation plan
+- `docs/development.md` — local development and runtime notes
+- `src/` — compatibility facade source code
 - `notes/` — debugging notes and migration findings
 
 ## Upstream projects
